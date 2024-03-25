@@ -44,35 +44,6 @@ int main()
         cout << "Masukan menu yang ingin di pilih (1/2/3/4/5): ";
         cin >> pilihan;
 
-        switch (pilihan) {
-        case 1:
-            input();
-            cout << "Hasil penjumlahan = " << penjumlahan(a, b) << endl;
-            system("pause");
-            break;
-        case 2:
-            input();
-            cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
-            system("pause");
-            break;
-        case 3:
-            input();
-            cout << "Hasil perkalian = " << perkalian(a, b) << endl;
-            system("pause");
-            break;
-        case 4:
-            input();
-            cout << "Hasil pembagian = " << pembagian(a, b) << endl;
-            system("pause");
-            break;
-        case 5:
-            break;
-        default:
-            cout << "Menu tidak tersedia, Silahkan pilih lagi!!" << endl;
-            break;
-        }
 
-
-    } while (pilihan != 5);
 }
 
